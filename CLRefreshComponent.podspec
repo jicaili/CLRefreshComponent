@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CLRefresh"
+  s.source_files  = "CLRefreshComponent"
   s.frameworks   = "UIKit", "Foundation" #支持的框架
   s.requires_arc = true # 是否启用ARC
   s.platform     = :ios, "8.0" #平台及支持的最低版本
